@@ -1,7 +1,9 @@
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
 import androidx.privacysandbox.ads.adservices.topics.Topic
 import com.example.cuadricula.R
 
-class DataSource {
+object DataSource {
     val topics = listOf(
         Topic(R.string.architecture, 58, R.drawable.architecture),
         Topic(R.string.crafts, 121, R.drawable.crafts),
